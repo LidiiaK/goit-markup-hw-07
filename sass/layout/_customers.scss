@@ -1,0 +1,37 @@
+.customers {
+  display: flex;
+}
+.logo-customer {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-social-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+  border: 1px solid var(--accent-color);
+  }
+  &:not(:last-child) {
+  margin-right: 30px;
+  }
+}
+
+.group-size {
+  display: flex;
+  padding: 16px 32px;
+
+  &:hover svg,
+  &:focus svg {
+  fill: var(--accent-color);
+  }
+}
+.icon-group {
+  display: flex;
+  width: 106px;
+  height: 60px;
+  fill: var(--icon-social-color);
+  justify-content: center;
+  align-items: center;
+}

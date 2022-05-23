@@ -1,0 +1,22 @@
+.logo {
+  font-family: Raleway, Oleo Script, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  &:hover {
+  color: var(--primery-text-color);
+  }
+}
+.logo span {
+  color: #212121;
+
+  &:hover {
+  color: var(--accent-color);
+  }
+}
+

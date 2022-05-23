@@ -1,0 +1,61 @@
+.line-box {
+  display: flex;
+  align-items: center;
+}
+.line-box li {
+  display: block;
+  & + li {
+  margin-left: 50px;
+  }
+}
+
+.line-box > ul {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.line-menu {
+  display: flex;
+}
+.menu-box {
+  display: flex;
+  align-items: center;
+}
+.scvg {
+  margin-right: 10px;
+  position: relative;
+  bottom: -2px;
+}
+.header .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 32px 0px;
+
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+  }
+}
+.mailh,
+.telh {
+  color: var(--parahraf-text-color);
+  fill: var(--parahraf-text-color);
+  align-items: center;
+}
+.current {
+  position: relative;
+  color: var(--accent-color);
+  &::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+  bottom: 0;
+  left: 0;
+  }
+}

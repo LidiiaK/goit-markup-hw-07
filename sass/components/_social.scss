@@ -1,0 +1,33 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-size {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  // border: 1px solid #2f303a;
+  border-radius: 50%;
+  fill: var(--icon-social-color);
+
+  &:hover,
+  &:focus {
+  background-color: var(--accent-color);
+  fill: var(--hero-text-color);
+  }
+}
+
+.icon-social {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+  fill: var(--hero-text-color);
+  }
+}
+.social-network:not(:last-child) {
+  margin-right: 10px;
+}

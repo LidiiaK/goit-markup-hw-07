@@ -1,0 +1,29 @@
+.section-second {
+  width: 270;
+  padding-top: 94px;
+}
+.list-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+}
+.section-second > li + li {
+  margin-left: 30px;
+}
